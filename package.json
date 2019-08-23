@@ -1,5 +1,5 @@
 {
-  "name": "Simple Imageviewer",
+  "name": "simpleimageviewer",
   "version": "1.0.0",
   "description": "Image viewer like a overlay.",
   "main": "main.js",

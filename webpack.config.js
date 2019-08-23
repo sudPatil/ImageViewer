@@ -1,6 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
-    entry: './src/main.js',
+    entry: './public/main.js',
     output: {
         path: __dirname + '/build',
         filename: 'client.bundle.js'
@@ -9,7 +9,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'Image viewer',
             filename: 'index.html',
-            template: `${__dirname}/src/index.html`
+            template: `${__dirname}/public/index.html`
         })
     ],
     resolve:{
