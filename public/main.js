@@ -20,4 +20,4 @@ const images = [
     "https://picsum.photos/id/1066/500/600",
 ]
 
-ReactDOM.render(<App imageList={images} />, document.getElementById("root"))
+ReactDOM.render(<App imageList={images} />, document.getElementById("content"))

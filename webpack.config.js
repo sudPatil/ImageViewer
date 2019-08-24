@@ -33,6 +33,6 @@ module.exports = {
         port: 8082,
         open: true,
         contentBase: './build',
-        open:'Google Chrome'
+        open:'chrome'
     } 
 }
